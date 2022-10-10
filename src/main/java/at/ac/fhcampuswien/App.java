@@ -149,7 +149,7 @@ public class App {
     //todo Task 6
     public void happyNumbers(){
         System.out.print("n: ");
-        int num = scan.nextInt(), r=1, sum=0;
+        int num = scan.nextInt(), r, sum=0;
 
         while (num > 9)
         {
