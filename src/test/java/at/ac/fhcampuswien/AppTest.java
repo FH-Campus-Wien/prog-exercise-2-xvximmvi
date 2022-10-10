@@ -120,7 +120,7 @@ class AppTest {
     @Test
     public void pyramid()
     {
-        String output = "*" + System.lineSeparator() +
+        String output = "     *" + System.lineSeparator() +
                 "    ***" + System.lineSeparator() +
                 "   *****" + System.lineSeparator() +
                 "  *******" + System.lineSeparator() +
