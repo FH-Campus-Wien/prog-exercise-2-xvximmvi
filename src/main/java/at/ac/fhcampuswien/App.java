@@ -43,16 +43,15 @@ public class App {
 
     //todo Task 3
     public void printPyramid(){
-        int r = 6, k = 0;
+        int r = 6;
 
-        for (int i = 1; i <= r; i++, k = 0) {
+        for (int i = 1; i <= r; i++) {
             for (int space = 1; space <= r - i; space++) {
                 System.out.print(" ");
             }
 
-            while (k != 2 * i - 1) {
+            for(int j=1; j<=2*i-1; j++) {
                 System.out.print("*");
-                k++;
             }
 
             System.out.println();
